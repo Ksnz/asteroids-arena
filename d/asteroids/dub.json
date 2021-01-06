@@ -1,0 +1,26 @@
+{
+	"authors": [
+		"NCrashed"
+	],
+	"copyright": "Copyright © 2020, Anton Gushcha",
+	"dependencies": {
+		"bindbc-sdl": "~>0.19.2",
+		"asteroids:decs": "*",
+	},
+	"description": "Asteroids game for asteroids-arena benchmarks",
+	"libs": [
+		"SDL2",
+		"SDL2_mixer"
+	],
+	"license": "MIT",
+	"name": "asteroids",
+	"subConfigurations": {
+		"bindbc-sdl": "static"
+	},
+	"versions": [
+		"SDL_Mixer"
+	],
+	"subPackages": [
+		"../decs"
+	],
+}

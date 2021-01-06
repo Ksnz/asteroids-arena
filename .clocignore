@@ -1,0 +1,6 @@
+zig-cache
+dist-newstyle
+.dub
+target
+plotting
+decs

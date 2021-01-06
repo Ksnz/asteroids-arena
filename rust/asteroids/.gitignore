@@ -1,2 +1,5 @@
 target
-fps.out
+fps.out*
+callgrind.out*
+profile.raw
+profile.merged
